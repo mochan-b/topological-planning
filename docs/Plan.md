@@ -4,13 +4,16 @@
 Basic structure of the proposal document
 
 - Homotopy and homology mathematical definition and the homology of trajectories
-- Defining homotopies by the obstacles and structure of the map
+- Characterizing homotopies by the obstacles and structure of the map
 - Kinematically feasible geometric subsets of the homotopy space
 - Using reinforcement learning to select a high level decision
 - References and literature survey of homotopy methods
 
 Literature Survey
 
+- Path Homotopy Invariants and their Application to
+Optimal Trajectory Planning
+https://www.lehigh.edu/~sub216/local-files/knot_planning_afee0.pdf
 - Search-based Path Planning with Homotopy Class Constraints
 https://www.cs.cmu.edu/~maxim/files/planwithhomotopyconstraints_aaai10.pdf
 - Combining Homotopy Methods and Numerical Optimal Control toSolve Motion Planning Problems
@@ -36,6 +39,7 @@ https://hybrid-robotics.berkeley.edu/publications/ARK2012.pdf
 ### Literature Survey
 
 - How far did Sibhrajit take the Homotopy class reasons
+  - String based representation of homotopies
 - Brief summaries of the papers that have been made so far and what they are trying to do here
 
 ### Writing
