@@ -25,7 +25,11 @@ https://arxiv.org/abs/1901.10094
 https://arxiv.org/abs/1908.00641
 - Trajectory Planning for Systems with HomotopyClass Constraints
 https://hybrid-robotics.berkeley.edu/publications/ARK2012.pdf
-- 
+- New lower bound techniques for Robot Motion Planning Problems
+http://www2.ensc.sfu.ca/people/faculty/kamal/teaching/887/course-material-soft-copies/complexity-of-mp/canny-3d-shortest-path.pdf
+- Persistent Homology for Path Planning in Uncertain Environments
+https://www.math.upenn.edu/~ghrist/preprints/persistence_planning.pdf
+
 
 ## Tasks to be Done
 
@@ -40,6 +44,7 @@ https://hybrid-robotics.berkeley.edu/publications/ARK2012.pdf
 
 - How far did Sibhrajit take the Homotopy class reasons
   - String based representation of homotopies
+  - https://www.lehigh.edu/~sub216/publications <- more literature survey
 - Brief summaries of the papers that have been made so far and what they are trying to do here
 
 ### Writing
