@@ -1,23 +1,15 @@
 
-class Ego:
-    def __init__(self, x, y, length, width):
-        self.x = x
-        self.y = y
-        self.length = length
-        self.width = width
+import numpy as np
+from box import Box
+
+
+class Ego(Box):
 
     def draw_map(self, plt):
-        x1 = self.x - self.width / 2
-        y1 = self.y - self.length / 2
-        x2 = self.x + self.width / 2
-        y2 = self.y + self.length / 2
+        Box.draw_map(self, plt, 'blue', draw_arrow=True)
 
-        rectangle = plt.Rectangle((x1, y1), x2 - x1, y2 - y1, fc='white', ec="black")
-        plt.gca().add_patch(rectangle)
-        line1 = plt.Line2D((x1, x2), (y1, y2), color='black')
-        line2 = plt.Line2D((x2, x1), (y1, y2), color='black')
-        plt.gca().add_line(line1)
-        plt.gca().add_line(line2)
-
-    def draw_trajspace(self):
-        pass
+    def draw_trajspace(self, ax):
+        X = self.rect[:, 0]
+        Y = self.rect[:, 1]
+        Z = np.array([[0] * len(X), [1 / 2] * len(Y)])
+        ax.plot_surface(X, Y, Z, color='lightblue', alpha=0.8)
